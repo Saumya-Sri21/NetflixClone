@@ -1,0 +1,409 @@
+@media screen and (max-width:980px) {
+
+    .mid1 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .mid2 {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main .box {
+        padding-bottom: 310px;
+    }
+
+    header {
+        padding-bottom: 310px;
+    }
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+
+}
+
+@media screen and (max-width:980px) {
+    nav {
+        width: 100vw;
+        height: 8vh;
+    }
+    nav img{
+        /* width: 25%; */
+    } 
+}
+
+nav img {
+    width: 50%;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+
+header {
+    background-image: url("assest/Images/bgimage.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(3000px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.button {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero {
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: calc(100%-62px);
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    gap: 25px;
+    font-weight: 600;
+    padding-top: 100px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    text-align: center;
+}
+
+.one {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width:485px) {
+    .form {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.separate {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(39, 34, 34);
+    position: relative;
+
+}
+
+.hero input {
+    background-color: rgba(23, 23, 23, 0.42);
+    padding: 10px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    margin-left: 12px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0.5px solid rgba(221, 209, 209, 0.548);
+}
+
+.redbtn {
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.redbtn1 {
+    padding: 5px 10px;
+    margin-left: 12px;
+}
+
+.redbtn2 {
+    padding: 10px 15px;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.lang {
+    background-color: rgba(23, 23, 23, 0.2);
+    padding: 7px 20px;
+    margin-left: 12px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+    border: 0.5px solid rgba(221, 209, 209, 0.548);
+
+}
+
+.mid1 {
+    height: 90vh;
+    width: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.mtext {
+    color: white;
+    height: 150px;
+    width: 450px;
+}
+
+.mimg {
+    margin-top: 20px;
+    background-position: center center;
+    object-fit: contain;
+    text-align: center;
+    align-content: center;
+    position: relative;
+
+}
+
+.mimg video {
+    position: absolute;
+    top: 51px;
+    right: 9px;
+    width: 500px;
+}
+
+.mimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+
+}
+
+@media screen and (max-width:616px) {
+    .mimg img {
+        width: 100%;
+    }
+
+    .mimg video {
+        width: 90%;
+    }
+}
+
+.t video {
+    right: 120px;
+    width: 60%;
+    top: 25px;
+}
+
+@media screen and (max-width:625px) {
+    .t video {
+        right: 70px;
+    }
+}
+
+.l1 {
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+.l2 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.mid2 {
+    height: 90vh;
+    width: calc(100-50px);
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    padding: 25px;
+}
+
+.mimg2 img {
+    width: 90%;
+}
+
+.mtext2 {
+    margin-bottom: 65px;
+    color: white;
+    height: 276px;
+    width: 450px;
+}
+
+.ch2 {
+    height: 150px;
+    width: 500px;
+
+}
+
+.redbtn:hover {
+    background-color: brown;
+    border: 2px solid brown;
+    cursor: pointer;
+
+}
+
+.ques {
+    height: auto;
+    width: calc(100%-30px);
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+}
+
+.query {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.query button {
+    background-color: rgb(49, 48, 48);
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+    width: 80vw;
+    text-align: start;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.query button:hover {
+    background-color: rgb(66, 65, 65);
+    cursor: pointer;
+}
+
+.heading {
+    font-size: 60px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.last {
+    font-size: 22px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.ques input {
+    background-color: rgba(23, 23, 23, 0.42);
+    padding: 10px;
+    padding-right: 90px;
+    padding-bottom: 20px;
+    margin-left: 12px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0.5px solid rgba(221, 209, 209, 0.548);
+}
+
+footer {
+    color: rgb(151, 147, 156);
+    padding: 15px;
+    width: calc(100%-30px);
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 25px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    font-size: 1em;
+
+}
+
+footer .anch {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 25vh;
+    margin: auto;
+    width: 85%;
+    column-gap: 50px;
+}
+
+@media screen and (max-width:600px) {
+    footer .anch {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 50vh;
+        margin: auto;
+        width: 85%;
+        column-gap: 50px;
+    }
+}
+
+footer div {
+    margin: auto;
+    width: 85%;
+
+}
+
+footer div a {
+    color: rgb(151, 147, 156);
+
+}
+
+.anch a {
+    color: rgb(151, 147, 156);
+}
+
+#lb {
+    margin: auto;
+    width: 85%;
+    width: 120px;
+}
